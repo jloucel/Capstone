@@ -9,8 +9,8 @@ from CoPrimeGenerator import CoPrimeGenerator
 class CoPrimeTest(unittest.TestCase):
 
         
-    @classmethod
-    def setUpClass(cls):
+   @classmethod
+   def setUpClass(cls):
         cls.generator = CoPrimeGenerator(15,15)
         
         
