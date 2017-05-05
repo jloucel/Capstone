@@ -1,2 +1,2 @@
-# Capstone
-Westminster College capstone project
+#Westminster College Senior Portfolio
+Jason Loucel
