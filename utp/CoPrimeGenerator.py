@@ -117,7 +117,7 @@ class CoPrimeGenerator:
     
     
     '''
-    returns the coPrime pair list
+    returns the coPrime pair matrix
     '''       
     def getCoPrimePairMatrix(self):
         return self.coPrimeMatrix
