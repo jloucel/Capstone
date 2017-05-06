@@ -9,6 +9,9 @@ body {
 	background: Gainsboro;
 	width: 800px
 }
+h1,h2,h3 {
+	color: #211551;
+}
 p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
@@ -25,6 +28,9 @@ li {
 	width: 500px;
 }
 em {
+	color: #211551;
+	font-style: italic; 
+	font-weight: bold;
 	font-size: 14px;
 }
 </style>
@@ -32,15 +38,14 @@ em {
 <body>
 <h1><center>Portfolio of Jason Loucel</center></h1>
 <div>
-<h3 class="mh3">Capstone Project - <a href="https://github.com/jloucel/BrokenLinkFinder">Broken Link Finder</a></h3>
+<h3>Capstone Project - <a href="https://github.com/jloucel/BrokenLinkFinder">Broken Link Finder</a></h3>
 <p>The goal of this project was to consider how software development skills could be utilized 
    in a QA role. With this goal in mind I began thinking of standalone test utilities that 
    could be used in any environment. Additionally I wanted to learn how to work with the 
    Selenium WebDriver framework to automate testing tasks in web applications. 
    This project satisfied both of these objectives, as well as reinforcing key concepts 
-   taught in the Computer Science program at Westminster College. 
-
-<p><em><b>Learning Goals satisfied by this project:</b></em>
+   taught in the Computer Science program at Westminster College.
+<p><em>Learning Goals satisfied by this project:</em>
 <ul type="circle">
 	<li>Demonstrate	evidence of	examining a	problem, designing an algorithm that solves it,
 		implementing the algorithm, and testing and debugging your solution.</li>
@@ -50,11 +55,14 @@ em {
 		programming	paradigm.</li>
 	<li>Demonstrate	that you understand	how	to design, write, and test objectoriented programs.</li>
 </ul>
-<h3>Selection of Course Work</h3>
+<h3>Selected Course Work</h3>
 <ul type="none">
 	<li><h4><a href="https://github.com/jloucel/Portfolio/blob/master/cvmm/vm.c">C Virtual Memory Manager</a></h4>
-		<p> How does this text work?
-		<p><em><b>Learning Goals satisfied by this project:</b></em>
+		<p> This project simulates virtual memory location access, translates virtual addresses into 
+			physical memory addresses, and then outputs the value stored in the physical location. 
+			Utilizing virtual memory allows operating systems to allocate exponentially 
+			more memory to processes and remain performant with limited physical memory resources.
+		<p><em>Learning Goals satisfied by this project:</em>
 		<ul type="circle">
 			<li>Demonstrate that you understand the relationship between the various levels 
 				in a computer system (CPU, cache, RAM, persistent storage, network.)</li>
@@ -64,8 +72,12 @@ em {
 		</ul>
 	</li>
 	<li><h4><a href="https://github.com/jloucel/Portfolio/blob/master/sifs/exprFinal.scala">Shceme Interpreter in Scala</a></h4>
-		<p> info on this
-		<p><em><b>Learning Goals satisfied by this project:</b></em>
+		<p> This project implements a Scheme language interpreter in Scala. The development of the final interpreter 
+			was accomplished by incrementally. By adding more complex logic features such as conditional control structures,
+			lambdas, and environments the interpreter gained enough functionality to support parsing a Scheme language 
+			program. It could then successfully execute a Scala program to produce the expected output of the parsed 
+			Scheme program.
+		<p><em>Learning Goals satisfied by this project:</em>
 		<ul tylpe="circle">
 			<li>Demonstrate proficiency in developing software in more than one programming language 
 				and programming paradigm.</li>
@@ -75,8 +87,13 @@ em {
 		</ul>
 	</li>
 	<li><h4><a href="https://github.com/jloucel/Portfolio/tree/master/jga">Java Greedy vs Dynamic Algorithms</a></h4>
-		<p>
-		<p><em><b>Learning Goals satisfied by this project:</b></em>
+		<p> This project contrasts the finding of an optimal solution to a path problem between greedy and dynamic 
+			algorithms. To illustrate this behavior a randomly generated board of number tiles is traversed using the 
+			desired algorithm, with a score returned after traversal. The user can then observe if the greedy or dynamic 
+			algorithm discovered the optimal path. The difference between the two algorithms is in how the next solution
+			is derived, the greedy approach yields the best solution at a given step where the dynamic approach tries 
+			all solutions and can then choose the optimal solution at each step.
+		<p><em>Learning Goals satisfied by this project:</em>
 		<ul type="circle">
 			<li>Demonstrate evidence of examining a problem, designing an algorithm that solves 
 				it, implementing the algorithm, and testing and debugging your solution.</li>
@@ -85,17 +102,28 @@ em {
 		</ul>
 	</li>
 	<li><h4><a href="https://github.com/jloucel/Elm/blob/master/sierpinski.elm">Sierpinski's Triangle in Elm</a></h4>
+		<p> Elm is a purely functional programming language that compiles to HTML, CSS, and Javascript. The goal 
+			of this project was to learn how to create an interactive program using Elm. I choose to implement 
+			Sierpinski's triangle and provide the user with a slider to control the number of iterations generated.
 		<p><a href="https://jloucel.github.io/Elm">Try It Here</a>
-		<p>
-		<p><em><b>Learning Goals satisfied by this project:</b></em>
+		<p><em>Learning Goals satisfied by this project:</em>
 		<ul type="circle">
 			<li>Demonstrate proficiency in developing software in more than one programming 
 				language and programming paradigm.</li>
+			<li>Demonstrate evidence of examining a problem, designing an algorithm that solves 
+				it, implementing the algorithm, and testing and debugging your solution.</li>
+			<li>Demonstrate project-based work including individual assignments, working in pairs, 
+				as well as larger group settings.</li>
+			<li>Critical, analytical and integrative thinking.</li>
+				
 		</ul>
 	</li>
-	<li><h4><a href="https://github.com/jloucel/Portfolio/blob/master/utp/CoPrimeTest.py">Python Unit Testing</a></h4>
-		<p>
-		<p><em><b>Learning Goals satisfied by this project:</b></em>
+	<li><h4><a href="https://github.com/jloucel/Portfolio/blob/master/utp/CoPrimeTest.py">Unit Testing in Python</a></h4>
+		<p> I am including this program as an example of utilizing unit testing in general, as well as to suggest
+			that testing can never be exhaustive. This is a simple program to generate a matrix of coprime pairs. 
+			Where a pair exists an '*' is stored in the matrix (4,9) for example. I feel at 10 tests it has been 
+			sufficiently, possibly over, tested, but not exhaustively tested. 
+		<p><em>Learning Goals satisfied by this project:</em>
 		<ul type="circle">
 			<li>Demonstrate proficiency in developing software in more than one 
 				programming language and programming paradigm.</li>
@@ -103,8 +131,7 @@ em {
 		</ul>
 	</li>
 </ul>
-<h3>About Me</h3>
-<a href="https://github.com/jloucel/Portfolio/tree/master/res/Loucel_Resume.pdf">View Resume</a>
+<h3><a href="https://github.com/jloucel/Portfolio/tree/master/res/Loucel_Resume.pdf">View My Resume</a></h3>
 </div>
 </body>
 </html>
